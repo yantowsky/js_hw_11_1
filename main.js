@@ -19,6 +19,6 @@ for (i = 0; i <= lengthMatrix; i++) {
     }
 }
 
-const tablePythagoras = `<div class="matrix"id="matrix"style="grid-template-columns: repeat(${lengthMatrix + 1}, 1fr)">${arrRenderMatrix.join("")}</div>`;
+const tablePythagoras = `<div class="matrix"style="grid-template-columns: repeat(${lengthMatrix + 1}, 1fr)">${arrRenderMatrix.join("")}</div>`;
 
 document.write(`<div class="wrapper">${tablePythagoras}</div>`);
